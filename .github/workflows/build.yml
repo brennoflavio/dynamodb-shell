@@ -16,7 +16,7 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get -y update
-          sudo apt-get -y install libcurl4-openssl-dev libssl-dev build-essential gcc g++ make cmake
+          sudo apt-get -y install libcurl4-openssl-dev libssl-dev build-essential gcc g++ make cmake libreadline-dev
 
       - name: Install AWS SDK for C++
         run: |
